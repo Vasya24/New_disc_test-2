@@ -1,0 +1,173 @@
+h2 {
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 24pt;
+    color: #7C002F;
+}
+
+.text {
+    font-family: 'Arial';
+    font-weight: regular;
+    font-size: 16pt;
+    color: #000000;
+}
+
+.arrow {
+    font-family: 'Arial';
+    font-weight: regular;
+    font-size: 16pt;
+    color: #7C7C7C;
+}
+
+.cards-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 240px;
+    margin-right: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.card-header1,
+.card-header2,
+.card-header3,
+.card-header4,
+.card-header5,
+.card-header6,
+.card-header7 {
+    font-family: 'Arial';
+    font-weight: regular;
+    font-size: 16pt;
+    height: 50px;
+    background-color: #7c7c7c;
+    color: #ffffff;
+    text-align: center;
+    height: 100px;
+    vertical-align: middle;
+}
+
+.header-text {
+    font-family: 'Arial';
+    font-weight: regular;
+    font-size: 16pt;
+    height: 50px;
+    display: inline-block;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.switch-btn1,
+.switch-btn2,
+.switch-btn3,
+.switch-btn4,
+.switch-btn5,
+.switch-btn6,
+.switch-btn7 {
+    display: inline-block;
+    width: 72px;
+    height: 38px;
+    border-radius: 19px;
+    background: #bfbfbf;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition-duration: 300ms;
+    vertical-align: bottom;
+    margin-bottom: 10px;
+}
+
+.switch-btn1::after,
+.switch-btn2::after,
+.switch-btn3::after,
+.switch-btn4::after,
+.switch-btn5::after,
+.switch-btn6::after,
+.switch-btn7::after {
+    content: "";
+    height: 32px;
+    width: 32px;
+    border-radius: 17px;
+    background: #fff;
+    top: 3px;
+    left: 3px;
+    transition-duration: 300ms;
+    position: absolute;
+    z-index: 1;
+    vertical-align: bottom;
+    margin-bottom: 10px;
+}
+
+.switch-on {
+    background: #7C002F;
+}
+
+.switch-on::after {
+    left: 37px;
+}
+
+.img-box1,
+.img-box2,
+.img-box3,
+.img-box4,
+.img-box5,
+.img-box6,
+.img-box7 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.img-box1 {
+    background-image: url("http://d.radikal.ru/d19/2003/29/20b73f81d588.png");
+}
+
+.img-box2 {
+    background-image: url("https://c.radikal.ru/c31/2003/05/6b6696f6ff66.png");
+}
+
+.img-box3 {
+    background-image: url("https://b.radikal.ru/b15/2003/63/e0b71a428898.png");
+}
+
+.img-box4 {
+    background-image: url("https://b.radikal.ru/b43/2003/88/322c95029677.png");
+}
+
+.img-box5 {
+    background-image: url("https://c.radikal.ru/c27/2003/fc/d215f11bfb06.png");
+}
+
+.img-box6 {
+    background-image: url("https://d.radikal.ru/d31/2003/f1/d7d3869bec35.png");
+}
+
+.img-box7 {
+    background-image: url("https://b.radikal.ru/b05/2003/46/5c028b38ca3a.png");
+}
+
+.card-text1,
+.card-text2,
+.card-text3,
+.card-text4,
+.card-text5,
+.card-text6,
+.card-text7 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    word-wrap: break-word;
+}
